@@ -1,0 +1,23 @@
+1.trace soc code based on verdi
+    step1: bash
+    step2: chdir $proton-soc/verif, and source setup.src
+    step3: chdir $proton-soc/verif/chip, run_cmd: 'make verdi'
+
+2.how to compile soc code based on asic_mode
+    step1: bash
+    step2: chdir $proton-soc/verif, and source setup.src
+    step3: chdir $proton-soc/verif/chip, run_cmd: 'make vcs_cmp'
+
+//3.how to compile soc code based on fpga_mode
+//    step1: bash
+//    step2: chdir $proton-soc/verif, and source setup.src
+//    step3: chdir $proton-soc/verif/chip, run_cmd: 'make vcs_cmp_fpga'
+
+4.how to run simulation based on vcs
+    step1: bash
+    step2: chdir $proton-soc/verif, and source setup.src
+    step3: chdir $proton-soc/verif/chip, run_cmd: 'make vcs_run caseName=$caseName'
+
+-> /home/share/soc/riscv-tools/bin/riscv32-unknown-elf-objdump testUART.elf -d
+
+If you have any soc_dv/soc-platform questions, please feel free to discuss with weijie.chen@corelink.vip

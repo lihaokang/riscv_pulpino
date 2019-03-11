@@ -1,0 +1,6 @@
+apb_adc:
+  files: [
+    adc_control.v,
+    apb_adc_control.v,
+    fifo_async.sv,
+  ]

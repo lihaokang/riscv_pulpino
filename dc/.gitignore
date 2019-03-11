@@ -1,0 +1,11 @@
+WORK/*
+*.log
+*.f
+*.svf
+design_lint/*
+alib-52/*
+rpt*/*
+out/*
+core*
+*.prj
+

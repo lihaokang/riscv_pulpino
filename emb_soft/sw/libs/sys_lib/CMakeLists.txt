@@ -1,0 +1,56 @@
+set(SOURCES
+    src/gpio.c
+    src/spi.c
+    src/timer.c
+    src/uart.c
+    src/i2c.c
+    src/int.c
+	src/utils.c
+	src/exceptions.c
+	src/drv_rtc.c
+	src/drv_power.c
+	src/drv_clockcal.c
+	src/drv_uart.c
+	src/drv_i2c.c
+	src/drv_spi.c
+	src/drv_gpio.c
+	src/drv_timer.c
+	src/drv_wdt.c
+	src/drv_scu.c
+	src/drv_eflash.c
+	src/drv_console.c
+	src/drv_pwm.c
+	src/drv_clock.c
+    )
+
+set(HEADERS
+    inc/gpio.h
+    inc/spi.h
+    inc/timer.h
+    inc/uart.h
+    inc/i2c.h
+	inc/proton.h
+    inc/bar.h
+	inc/spr-defs.h
+    inc/int.h
+	inc/utils.h
+	inc/drv_rtc.h
+	inc/drv_power.h
+	inc/drv_clockcal.h
+	inc/drv_uart.h
+	inc/drv_i2c.h
+	inc/drv_spi.h
+	inc/drv_gpio.h
+	inc/drv_timer.h
+	inc/drv_wdt.h
+	inc/drv_scu.h
+	inc/drv_eflash.h
+	inc/drv_console.h
+	inc/drv_pwm.h
+	inc/drv_clock.h
+    )
+
+include_directories(inc/)
+include_directories(../string_lib/inc)
+
+add_library(sys STATIC ${SOURCES} ${HEADERS})

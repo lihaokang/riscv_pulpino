@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_srcinfo.dtd">
+  <srcinfo name="/home/mingyao.ding/eflash_ctrl"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="N-2017.12-SP1"  />
+      <fileinfo name="eflash_ctrl_new.v"  id="0"  />
+      <fileinfo name="axi_master_bfm.sv"  id="1"  />
+      <fileinfo name="axi_defines.vh"  id="2"  />
+      <fileinfo name="PF64AK32EI40_V0.4.3.v"  id="3"  />
+      <fileinfo name="eflash_tb.sv"  id="4"  />
+    </srcinfo>

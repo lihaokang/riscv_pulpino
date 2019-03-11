@@ -1,0 +1,11 @@
+
+chdir $proton-soc/flow/memaker and run 'source memaker.env' based on csh
+$MEMAKER/flexlm/bin/linux64/lmgrd -c $MEMAKER/flexlm/license/memaker.dat -l logfile.sv
+$MEMAKER/flexlm/bin/linux64/lmutil lmstat -a -c $MEMAKER/flexlm/license/memaker.dat
+memaker&
+
+#$MEMAKER/flexlm/bin/linux64/lmdown -c $MEMAKER/flexlm/license/memaker.dat
+
+
+
+

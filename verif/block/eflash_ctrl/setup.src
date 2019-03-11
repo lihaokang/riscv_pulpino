@@ -1,0 +1,48 @@
+#eflash related setting
+
+
+#toolchain related setting
+export curDir=`pwd`
+export rtlDir=$curDir/../../../ips/eflash_ctrl
+
+
+
+#eda tools license setting
+export LM_LICENSE_FILE="27010@etxLicenseServer:27020@etxLicenseServer:27030@etxLicenseServer"
+export MGLS_LICENSE_FILE="27030@etxLicenseServer"
+export SNPSLMD_LICENSE_FILE="27020@etxLicenseServer"
+
+export VCS_HOME="/tools/Synopsys/vcs-mx-N-2017.12-SP1"
+export VERDI_HOME="/tools/Synopsys/Verdi_N-2017.12-SP1"
+export EDI_HOME="/tools/Cadence/EDI1421"
+export Modelsim_HOME="/tools/Mentor/modelsim10.6"
+export DC_HOME="/tools/Synopsys/syn_vM-2016.12-SP5/syn/M-2016.12-SP5"
+export FM_HOME="/tools/Synopsys/fm-N-2017.09"
+
+
+
+
+export PATH="$VCS_HOME/bin/":$PATH
+export PATH="$VCS_HOME/amd64/bin/":$PATH
+export PATH="$VERDI_HOME/bin/":$PATH
+export PATH="$EDI_HOME/bin/":$PATH
+export PATH="$Modelsim_HOME/modeltech/bin/":$PATH
+export PATH="$DC_HOME/amd64/syn/bin/":$PATH
+export PATH="$FM_HOME/linux64/fm/bin/":$PATH
+
+export CDS_AUTO_64BIT="ALL"
+export CDS_HOME="/tools/Cadence"
+export CDS_ROOT="/tools/Cadence/IC617"
+export CDSHOME="$CDS_HOME"
+export CDS_INST_DIR="$CDS_ROOT"
+export CDS_DIR="$CDS_ROOT"
+export CDS_Netlisting_Mode="Analog"
+
+export PATH="$CDS_ROOT/bin/":$PATH
+export PATH="$CDS_ROOT/tools/bin/":$PATH
+export PATH="$CDS_ROOT/tools/dfII/bin/":$PATH
+
+
+
+
+

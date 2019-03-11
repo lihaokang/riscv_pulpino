@@ -1,0 +1,71 @@
+#soc related setting
+export socDir=`pwd`
+export ipsDir=$socDir/../ips
+export rtlDir=$socDir/../rtl
+export tbDir=$socDir/../tb
+
+
+#toolchain related setting
+
+
+
+#eda tools license setting
+export LM_LICENSE_FILE="27010@etxLicenseServer:27020@etxLicenseServer:27030@etxLicenseServer"
+export MGLS_LICENSE_FILE="27030@etxLicenseServer"
+export SNPSLMD_LICENSE_FILE="27020@etxLicenseServer"
+
+export VCS_HOME="/tools/Synopsys/vcs-mx-N-2017.12-SP1"
+export VERDI_HOME="/tools/Synopsys/Verdi_N-2017.12-SP1"
+export EDI_HOME="/tools/Cadence/EDI1421"
+export Modelsim_HOME="/tools/Mentor/modelsim10.6"
+export DC_HOME="/tools/Synopsys/syn_vM-2016.12-SP5/syn/M-2016.12-SP5"
+export FM_HOME="/tools/Synopsys/fm-N-2017.09"
+export TESSENT_HOME="/home/tools/Mentor/tessent201701"
+export MMSIM_HOME="/home/tools/Cadence/SPECTRE171"
+export INCISIVE_HOME="/home/tools/Cadence/INCISIVE152"
+export XCELIUM_HOME="/home/tools/Cadence/XCELIUM1710"
+export Catapult_102a_HOME="/home/tools/Mentor/Catapult10.2a"
+export Catapult_103b_HOME="/home/tools/Mentor/Catapult10.3b"
+
+
+export PATH="$VCS_HOME/bin/":$PATH
+export PATH="$VCS_HOME/amd64/bin/":$PATH
+export PATH="$VERDI_HOME/bin/":$PATH
+export PATH="$EDI_HOME/bin/":$PATH
+export PATH="$Modelsim_HOME/modeltech/bin/":$PATH
+export PATH="$DC_HOME/amd64/syn/bin/":$PATH
+export PATH="$FM_HOME/linux64/fm/bin/":$PATH
+export PATH="$TESSENT_HOME/bin/":$PATH
+
+export CDS_AUTO_64BIT="ALL"
+export CDS_HOME="/tools/Cadence"
+export CDS_ROOT="/tools/Cadence/IC617"
+export CDSHOME="$CDS_HOME"
+export CDS_INST_DIR="$CDS_ROOT"
+export CDS_DIR="$CDS_ROOT"
+export CDS_Netlisting_Mode="Analog"
+
+export PATH="$CDS_ROOT/bin/":$PATH
+export PATH="$CDS_ROOT/tools/bin/":$PATH
+export PATH="$CDS_ROOT/tools/dfII/bin/":$PATH
+
+export PATH="$MMSIM_HOME/bin/":$PATH
+export PATH="$MMSIM_HOME/tools/bin/":$PATH
+export PATH="$MMSIM_HOME/tools/dfII/bin/":$PATH
+export PATH="$MMSIM_HOME/tools/spectre/bin/":$PATH
+
+export PATH="$INCISIVE_HOME/bin/":$PATH
+export PATH="$INCISIVE_HOME/tools/bin/":$PATH
+export PATH="$INCISIVE_HOME/tools/bin/64bit/":$PATH
+export PATH="$INCISIVE_HOME/tools.lnx86/inca/bin/64bit/":$PATH
+
+export PATH="$XCELIUM_HOME/bin/":$PATH
+export PATH="$XCELIUM_HOME/tools/bin/":$PATH
+export PATH="$XCELIUM_HOME/tools/bin/64bit/":$PATH
+export PATH="$XCELIUM_HOME/tools.lnx86/inca/bin/64bit/":$PATH
+
+#export PATH="$Catapult_102a_HOME/bin/":$PATH
+export PATH="$Catapult_103b_HOME/bin/":$PATH
+
+
+

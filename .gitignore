@@ -1,0 +1,14 @@
+*.swp
+sw/build/*
+imperio
+ipstools
+CMakeFiles/*
+apps/*
+build/*
+libs/*
+cmake_install.cmake
+Makefile
+CMakeCache.txt
+CTestTestfile.cmake
+CopyOfCMakeCache.txt
+*.log

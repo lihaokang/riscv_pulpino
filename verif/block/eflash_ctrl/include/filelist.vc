@@ -1,0 +1,5 @@
+$rtlDir/rtl/flash_ctrl.v
+$curDir/bfm/axi_master_bfm.sv
+$curDir/model/PF64AK32EI40_V0.4.0.v
+$curDir/tb/eflash_tb.sv
+

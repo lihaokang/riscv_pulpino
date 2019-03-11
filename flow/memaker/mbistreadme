@@ -1,0 +1,40 @@
+#################################################
+#
+#Mbist Generator Guideline
+#
+#################################################
+Genarate mbist step:
+
+1.Need prepare two files(generate by memory compiler[Memaker])
+  
+  ******.tessent (tessent mbist model)
+  ******.v(memory rtl)
+
+  (Memory Compiler[Memaker]Installation stage:
+   1. Extract the compressed file
+   Please change directory to the hierarchy where the memory generator is to be installed.
+   >gzip -d <File>.tar.gz ; tar xvf <File>.tar
+
+   2. Setup your MEMAKER environment in memaker.env
+   Please edit your MEMAKER environment as your install path.
+   Please refer the header of "memaker.env" to get more detailed information.
+   >vi memaker.env
+   >source memaker.env
+
+   3. Save your license file
+   >cp memaker.dat $MEMAKER/flexlm/license/.
+
+   4. Launch your license server.  
+       Please refer to Memaker User Guide to know the license launch instructions in details.
+       --> $MEMAKER/EXE/memaker.package/doc/<UserGuide>.pdf
+
+   5. Setup your display environment (optional)
+   The memory generator is performed by GUI (Graphic User Interface). So, 
+   before using memory generator, please setup your display environment. 
+
+   6. Execute memory generator
+   >memaker        )
+
+
+2.> source /home/share/setup.src
+  > memlibc -memLib ******.tessent -simulator NC-Verilog -SimModelFile ******.v -extension v 
